@@ -12,11 +12,13 @@ import lombok.ToString;
 @ToString
 
 
-@Document(collection = "employee")
-public class Employee {
+@Document(collection = "httpparameters")
+public class HttpParameters {
 	@Id
-	private int empid;
-	private String fname;
-	private String lname;
+	private String key;
+	private String displayName;
+	private String type;
+	private String httpParameterName;
+	private String namespace;
 
 }
