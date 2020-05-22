@@ -20,5 +20,4 @@ public class HttpParameters {
 	private String type;
 	private String httpParameterName;
 	private String namespace;
-
 }
